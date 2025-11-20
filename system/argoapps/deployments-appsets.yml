@@ -11,7 +11,7 @@ spec:
       repoURL: https://github.com/stolos-cloud/stolos-jo-test.git
       revision: HEAD
       directories:
-      - path: deployments/*
+      - path: namespaces/*
   template:
     metadata:
       name: '{{.path.basename}}'
